@@ -97,7 +97,7 @@ class Ships {
         
     }
 
-    /*Public function to calculate the speed of a ship*/
+    /*Public function to reduce Cargo Capacity*/
     public function reduceCargoCapaity($new_capacity){
         return $this->cargo = $new_capacity;
     }
